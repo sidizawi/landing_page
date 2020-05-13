@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+    <body>
+        <header id="header">
+        <img src="https://drive.google.com/thumbnail?id=1P5G7XhXokwU50XZUwhVeZD5b2dBRfBPX" id="header-img">
+        
+        <nav id="nav-bar">
+            <a class="nav-link" href="#header">Home</a>
+            <a class="nav-link" href="#coding">Learn Coding</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#form">Learn More</a>
+        </nav>
+        
+        </header>
+
+        <div id="main">
+
+            <br>
+            <div id="coding">
+                <h1>Learn Coding: </h1>
+                <div id="video-div">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N7ZmPYaXoic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+                </div>
+            </div>
+            <br><br>
+        
+            <div id="pricing">
+                <div class="price">
+                <h2>Basics</h2>
+                <p>
+                    <em class="pri">$199</em><br>
+                    - HTML5 & CSS3<br>
+                    - Javascript <br>
+                </p>
+                <button type="button" id="pri-button1">Select</button>
+                </div>
+                <div class='price'>
+                <h2>Advanced</h2>
+                <p>
+                    <em class="pri">$399</em><br>
+                    - HTML5 & CSS3<br>
+                    - Javascript <br>
+                    - Python<br>
+                    - Django<br>
+                    - Flask<br>
+                    - Data Base<br>
+                </p>
+                <button type="button" id="pri-button2">Select</button>
+                </div>
+                <div class="price">
+                <h2>Premium</h2>
+                <p>
+                    <em class="pri">$599</em><br>
+                    - HTML5 & CSS3<br>
+                    - Javascript <br>
+                    - Python<br>
+                    - Django<br>
+                    - Flask<br>
+                    - Data Base<br>
+                    - Coching
+                </p>
+                <button type="button" id="pri-button3">Select</button>
+                </div>
+            </div>
+            
+            <br><br>
+            <form id="form" action='https://www.freecodecamp.com/email-submit' method="get" target="_blank">
+            
+                <label for="email" id="mail-label">Enter your mail to learn more</label><br>
+                <input id="email" type='email' placeholder='your email'>
+                <br><br>
+                <input type="submit" id="submit"> <!-- go to https://www.freecodecamp.com/email-submit -->   
+            <br>
+            </form>
+            
+        </div>
+
+        <footer><br><br>
+        Copyright 2020, Zawi Media Promote<br><br>
+        </footer>
+
+    </body>
+</html>
